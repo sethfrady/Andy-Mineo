@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+    font-family: 'Concert One', cursive;
+    max-height: 5px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-container {
+    height: 130px
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.img {
+    width: 150px;
+}
+
+.video-container {
+    padding: 10px 0px 30px 0;
+}
+
+.video-border {
+    padding: 10px 10px;
+    border: 5px dotted rgb(109, 58, 0);
+}
+
+.button-container {
+    padding: 10px 0 50px 0;
+}
+
+.btn-group {
+    padding: 0 10px 0 0;
+}
+
+iframe {
+    border: none;
+}
+
+#btn {
+    padding: 10px 10px;
+    color: rgb(109, 58, 0);
+    font-size: 19px;
+    letter-spacing: -1px;
+}
+
+.text-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+
+.grid1 {
+    text-align: center;
+}
+
+.grid2 {
+    text-align: center;
+}
+
+.grid3 {
+    text-align: center;
+}
+
+.text {
+    color: white;
+    text-align: center;
+    font-size: 150px;
+    line-height: 130px;
+    letter-spacing: -5px;
+    text-shadow: 5px 10px rgb(109, 58, 0);
+}
+
+.position-img {
+    text-align: center;
+}
+
+.button-container2 {
+    padding: 40px 0px 30px 0;
+}
+
+.img2-container {
+    padding: 0px 0px 20px 0;
+}
+
+.img2 {
+    width: 120px;
+}
+
+.bottle {
+    float: right;
+    transform: rotate(-10deg);
+    width: 200px;
+}
+
+.tshirt {
+    transform: rotate(20deg);
+    width: 200px;
+}
+
+.minor {
+    float: left;
+    transform: rotate(-10deg);
+    width: 300px;
+}
+
+.hoodie {
+    float: left;
+    transform: rotate(10deg);
+    width: 160px;
+}
